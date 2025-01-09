@@ -335,7 +335,25 @@ namespace MantenanceProjetASPNET6.Controllers
                 FiliereModel filiereModel=   candidat_service.setFiliere(cne,model.ID);
                 model.niveau = filiereModel.niveau;
                 TempData["filiere"] = "Filiere Modifiée avec succès";
-        
+
+            //##################### Session de IsBeforeCurrentDate ################################ //
+            var isBeforeCurrentDate = HttpContext.Session.GetString("IsBeforeCurrentDate");
+            if (isBeforeCurrentDate == "True")
+            {
+                ViewBag.IsBeforeCurrentDate = true;
+            }
+            else if (isBeforeCurrentDate == "False")
+            {
+                ViewBag.IsBeforeCurrentDate = false;
+            }
+            else
+            {
+                ViewBag.IsBeforeCurrentDate = false;
+            }
+            //##################### Session de IsBeforeCurrentDate ################################ //
+
+            Console.WriteLine("From HttpPost" + ViewBag.IsBeforeCurrentDate);
+
             return View(model);
         }
 

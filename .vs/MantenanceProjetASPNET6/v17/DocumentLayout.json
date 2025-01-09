@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|d:\\4-ginfo\\.net\\ds_3project\\testasp\\aspnetmaintenanceapp\\views\\admin\\listfinale4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|solutionrelative:views\\admin\\listfinale4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|d:\\4-ginfo\\.net\\ds_3project\\testasp\\aspnetmaintenanceapp\\views\\admin\\listefinale3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|solutionrelative:views\\admin\\listefinale3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListeFinale3.cshtml",
+              "DocumentMoniker": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\ListeFinale3.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ListeFinale3.cshtml",
+              "ToolTip": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\ListeFinale3.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ListeFinale3.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T00:37:27.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListFinale4.cshtml",
+              "DocumentMoniker": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\ListFinale4.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ListFinale4.cshtml",
+              "ToolTip": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\ListFinale4.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ListFinale4.cshtml",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAABUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T00:27:41.579Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

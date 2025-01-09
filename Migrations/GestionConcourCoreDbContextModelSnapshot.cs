@@ -261,7 +261,7 @@ namespace MantenanceProjetASPNET6.Migrations
                             Cin = "test5",
                             Conforme = false,
                             Convoque = false,
-                            DateInscription = new DateTime(2025, 1, 7, 20, 40, 51, 94, DateTimeKind.Local).AddTicks(2705),
+                            DateInscription = new DateTime(2025, 1, 9, 0, 42, 9, 983, DateTimeKind.Local).AddTicks(6946),
                             DateNaissance = new DateTime(1995, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "xxxx@gmail.com",
                             Gsm = "0612345678",
@@ -484,6 +484,9 @@ namespace MantenanceProjetASPNET6.Migrations
 
                     b.Property<double>("NoteDiplome")
                         .HasColumnType("float");
+
+                    b.Property<string>("PhotoDiplomePath")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Specialite")
                         .HasColumnType("nvarchar(max)");
