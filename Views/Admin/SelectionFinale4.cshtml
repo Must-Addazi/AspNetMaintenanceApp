@@ -21,6 +21,7 @@
                 columns.Add(model => model.Nom).Titled("Nom").Sortable(true);
                 columns.Add(model => model.Prenom).Titled("Prénom").Sortable(true);
                 columns.Add(model => model.Filiere).Titled("Filière").Sortable(true);
+                columns.Add(model => model.NoteFinale).Titled("Note de Concour").Sortable(true);
                 columns.Add(model => model.Statut).Titled("Statut").RenderedAs(model =>
                 Html.Raw($"<span id='status-{model.Cne}'>{model.Statut}</span>"));
                 columns.Add().Titled("Action").RenderedAs(model =>
@@ -70,6 +71,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="~/js/mvc-grid/mvc-grid.js"></script>
 <script>
+    document.querySelectorAll(".mvc-grid").forEach(Element => new MvcGrid(Element));
     //######################## Export to EXCELL #########
             function getFilteredTableData() {
         const table = document.getElementById('tbody');

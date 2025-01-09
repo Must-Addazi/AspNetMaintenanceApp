@@ -15,12 +15,13 @@
         @(Html.Grid(Model)
             .Build(columns =>
             {
-                columns.Add().Titled("Photo").RenderedAs(model =>
+                columns.Add(model => model.Photo).Titled("Photo").RenderedAs(model =>
                 Html.Raw($"<img src='/candidatImages/{model.Photo}' style='width:50px; height:50px; border-radius:50%;' />"));
-                columns.Add(model => model.Cne).Titled("CNE").Sortable(true);
-                columns.Add(model => model.Nom).Titled("Nom").Sortable(true);
-                columns.Add(model => model.Prenom).Titled("Prénom").Sortable(true);
-                columns.Add(model => model.Filiere).Titled("Filière").Sortable(true);
+                columns.Add(model => model.Cne).Titled("CNE").Sortable(true).Filterable(true);
+                columns.Add(model => model.Nom).Titled("Nom").Sortable(true).Filterable(true);
+                columns.Add(model => model.Prenom).Titled("Prénom").Sortable(true).Filterable(true);
+                columns.Add(model => model.Filiere).Titled("Filière").Sortable(true).Filterable(true);
+                columns.Add(model => model.NoteFinale).Titled("Note de Concour").Sortable(true).Filterable(true);
                 columns.Add(model => model.Statut).Titled("Statut").RenderedAs(model =>
                 Html.Raw($"<span id='status-{model.Cne}'>{model.Statut}</span>"));
                 columns.Add().Titled("Action").RenderedAs(model =>
@@ -28,9 +29,12 @@
         <button class='btn btn-primary select-btn' data-cne='{model.Cne}' data-statut='{model.Statut}'>Sélectionner</button>
         "));
             })
-            .Pageable(pager => { pager.RowsPerPage = 6; })
-            .Sortable()
+            .Pageable(pager =>
+            {
+                pager.RowsPerPage = 10;
+            })
             .Filterable()
+            .Sortable()
             .Id("tbody")
             )
     </div>
@@ -72,6 +76,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="~/js/mvc-grid/mvc-grid.js"></script>
 <script>
+    document.querySelectorAll(".mvc-grid").forEach(Element => new MvcGrid(Element));
     //######################## Export to EXCELL #########
             function getFilteredTableData() {
         const table = document.getElementById('tbody');

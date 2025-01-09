@@ -301,6 +301,7 @@ namespace MantenanceProjetASPNET6.Controllers
             var x = search.UpdateCandidatStatut(cne,statut ,Niveau);
             return Json(x);
         }
+
         /*###################################################  FIN  RECHERCHE  ############################################# */
 
         /*#################################################  DEBUT  PRESELECTION  ############################################# */
@@ -387,6 +388,27 @@ namespace MantenanceProjetASPNET6.Controllers
             var list = preselec.getPourcentage(niv, fil, diplome);
             return Json(list);
         }
+        [HttpPost]
+        public JsonResult ValiderNotes([FromBody] NotesRequestModel request)
+        {
+            if (request?.Notes != null && request.Notes.Count > 0)
+            {
+                // Log the received data
+                Debug.WriteLine($"Received {request.Notes.Count} notes");
+                foreach (var note in request.Notes)
+                {
+                    Debug.WriteLine($"CNE: {note.Cne}, Note: {note.Note}");
+                }
+
+                var x = search.marquerNote(request.Notes, request.Niveau);
+                return Json(x);
+            }
+            else
+            {
+                return Json(new { success = false, message = "No notes were provided." });
+            }
+        }
+
 
         /*#################################################  FIN  PRESELECTION  ############################################# */
 
@@ -466,8 +488,32 @@ namespace MantenanceProjetASPNET6.Controllers
             return RedirectToAction("Login", "AdminAuth");
         }
         /*################################################# FIN selection Finale 4 ############################################# */
-
-
+        /*################################################# affecter note finale3 ############################################# */
+        public IActionResult AffecterNote3()
+        {
+            if (isAdmin())
+            {
+                var x = search.generalSearch(3)
+                      .Where(i => i.Presence == true);
+                Console.WriteLine(x);
+                return View(x);
+            }
+            return RedirectToAction("Login", "AdminAuth");
+        }
+        /*################################################# FIN affecter note finale3 ############################################# */
+        /*################################################# affecter note finale4 ############################################# */
+        public IActionResult AffecterNote4()
+        {
+            if (isAdmin())
+            {
+                var x = search.generalSearch(4)
+                      .Where(i => i.Presence == true);
+                Console.WriteLine(x);
+                return View(x);
+            }
+            return RedirectToAction("Login", "AdminAuth");
+        }
+        /*################################################# FIN affecter note finale4 ############################################# */
 
 
         public IActionResult Statistique3()

@@ -16,5 +16,6 @@ namespace MantenanceProjetASPNET6.Services
         IEnumerable<SearchModel3> marquerPresence(string cne, int niveau);
         IEnumerable<SearchModel3> UpdateCandidatStatut(string cne, string statut, int niveau);
         IEnumerable<SearchModel3> presenceList(int niveau);
+        IEnumerable<SearchModel3> marquerNote(List<NoteModel> note, int niveau);
     }
 }

@@ -44,5 +44,6 @@ namespace MantenanceProjetASPNET6.Models
         public string Diplome2 { get; set; }
         public string Diplome3 { get; set; }
         public string Statut { get; set; }
+        public double NoteFinale { get; set; }
     }
 }

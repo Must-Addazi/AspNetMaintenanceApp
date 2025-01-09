@@ -62,7 +62,8 @@ namespace MantenanceProjetASPNET6.Services
                          Cin = c.Cin,
                          Cne = c.Cne,
                          NonConforme = c.Conforme,
-                         Statut = TraduireSelection(c.SelectionFinale)
+                         Statut = TraduireSelection(c.SelectionFinale),
+                         NoteFinale = c.NoteFinale
                      }).ToList().Select(v =>
                      {
                          var fichier = db.Fichiers.Where(f => f.Cne == v.Cne).SingleOrDefault();
@@ -127,7 +128,8 @@ namespace MantenanceProjetASPNET6.Services
                              Diplome2 = part2,
                              Diplome3 = part3,
 
-                             Statut = v.Statut
+                             Statut = v.Statut,
+                             NoteFinale = v.NoteFinale
                          };
                      }).ToList();
             return x;
@@ -184,6 +186,21 @@ namespace MantenanceProjetASPNET6.Services
             db.SaveChanges();
             var y = this.info(niveau);
             return y;
+        }
+        public IEnumerable<SearchModel3> marquerNote(List<NoteModel> note, int niveau)
+        {
+            foreach (var noteModel in note)
+            {
+                var candidat = db.Candidats.SingleOrDefault(c => c.Cne == noteModel.Cne);
+                if (candidat != null)
+                {
+                    candidat.NoteFinale = noteModel.Note;
+                }
+            }
+            db.SaveChanges();
+
+            var resultat = this.info(niveau);
+            return resultat;
         }
         public IEnumerable<SearchModel3> presenceList(int niveau)
         {

@@ -68778,6 +68778,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\baccalaureats\664d4781-0a51-458e-8132-bdde13cd0d28_CIN_Internet.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\baccalaureats\671e78f6-55e9-4137-81c6-5cda029cc569_Achraf_Chapitre2.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MantenanceProjetASPNET6</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MantenanceProjetASPNET6</BasePath>
+      <RelativePath>uploads/baccalaureats/671e78f6-55e9-4137-81c6-5cda029cc569_Achraf_Chapitre2.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fpq6oypx59</Fingerprint>
+      <Integrity>s3wtg4uGQvAfToEaYzkmAuse6L8RyNcR8ID4dbP42QY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\baccalaureats\671e78f6-55e9-4137-81c6-5cda029cc569_Achraf_Chapitre2.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\baccalaureats\6d41726b-d9a3-4c0f-a1e0-81b6461ea10c_TD_Corrige_PLSQL.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>MantenanceProjetASPNET6</SourceId>
@@ -69318,6 +69336,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cin\a4f012c1-5af2-4356-88b6-6224d66633a9_CIN_Internet.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cin\b48185b0-286d-4be5-888a-737163ebe137_presentation.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MantenanceProjetASPNET6</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MantenanceProjetASPNET6</BasePath>
+      <RelativePath>uploads/cin/b48185b0-286d-4be5-888a-737163ebe137_presentation.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eh5lxl1xq7</Fingerprint>
+      <Integrity>/msId8TOhGuRQtTbJXhGVH+gn6rzHV9kOKOyCieUv24=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cin\b48185b0-286d-4be5-888a-737163ebe137_presentation.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cin\bb065f75-43d0-4c47-bc27-e666d60753b7_CIN_Internet.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>MantenanceProjetASPNET6</SourceId>
@@ -69371,6 +69407,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cin\ed73df1a-3a58-419b-a97d-b026a6d6da11_Resultat_SPSS.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\diplome\09a743bd-11f8-4fac-b03c-b2390f631971_vfpresentation.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MantenanceProjetASPNET6</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MantenanceProjetASPNET6</BasePath>
+      <RelativePath>uploads/diplome/09a743bd-11f8-4fac-b03c-b2390f631971_vfpresentation.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ul0c6myaek</Fingerprint>
+      <Integrity>7vMWMos501uW7c88i2yUYQSi+DvvAW+eBLSCYRfR6pM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\diplome\09a743bd-11f8-4fac-b03c-b2390f631971_vfpresentation.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\diplome\209d34d2-105b-454b-a575-f70a4f7b2a0a_Resultat_SPSS.pdf'))">
       <SourceType>Package</SourceType>
