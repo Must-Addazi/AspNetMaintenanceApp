@@ -7,6 +7,7 @@ wwwroot\candidatImages\5364.png
 wwwroot\candidatImages\6660.jpg
 wwwroot\candidatImages\6742.jpg
 wwwroot\candidatImages\7992.jpg
+wwwroot\candidatImages\9765.png
 wwwroot\candidatImages\icon.jpg
 wwwroot\content_admin\css\my_css.css
 wwwroot\content_admin\css\sb-admin-2.css
@@ -3804,6 +3805,7 @@ wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\Rotativa\help-wkhtmltopdf.txt
 wwwroot\Rotativa\wkhtmltopdf.exe
 wwwroot\uploads\baccalaureats\0f480f21-8460-4560-ab49-3f82e6e7bcf9_TestDocument.pdf
+wwwroot\uploads\baccalaureats\1d52a9c2-581f-421e-9f48-f7f9747a4967_Resultat_SPSS.pdf
 wwwroot\uploads\baccalaureats\2518630c-29a4-46a5-bdd3-f56f059e2144_etapeProjet.pdf
 wwwroot\uploads\baccalaureats\26f904ac-5567-48f9-95f9-53a28b148afe_RLS-exercices (1).pdf
 wwwroot\uploads\baccalaureats\2e4822b5-995d-4b3b-b371-b58995365fe7_TestDocument.pdf
@@ -3826,6 +3828,7 @@ wwwroot\uploads\baccalaureats\b12f4c43-f988-4d2b-a2cc-8c3985f42dcf_Diplome.pdf
 wwwroot\uploads\baccalaureats\bcca4bd7-322f-4aa7-9077-d181471082b5_Resultat_SPSS.pdf
 wwwroot\uploads\baccalaureats\c5b48997-efde-43b1-b9d1-1cb801c388cf_Resultat_SPSS.pdf
 wwwroot\uploads\baccalaureats\da34fb4d-cc7d-444b-a2fb-aa72eefc76e9_TestDocument.pdf
+wwwroot\uploads\baccalaureats\e28296bb-1e4a-42be-ba2f-da655916c792_Achraf_Chapitre2.pdf
 wwwroot\uploads\baccalaureats\f44020e0-2778-4dbc-a9ef-e8e8d6cd1da1_Diplome.pdf
 wwwroot\uploads\baccalaureats\f6f6e2f4-eddc-4251-a938-dc8e6445132c_TestDocument.pdf
 wwwroot\uploads\baccalaureats\f8ab466e-4e53-4103-92c3-e696501d4eb6_CIN_Internet.pdf
@@ -3835,11 +3838,13 @@ wwwroot\uploads\cin\45897e68-1db9-4ce4-a0ae-a5e41cec9b84_CIN_Internet.pdf
 wwwroot\uploads\cin\51d8fac5-09dd-44f4-a784-a2e058adf3d0_catgoMedicamrentas.pdf
 wwwroot\uploads\cin\529e532d-791d-4ea8-b7b0-0d5fa9569c25_CIN_Internet.pdf
 wwwroot\uploads\cin\554f3c8d-7087-49c0-80f8-ae8a5f895d46_Resultat_SPSS.pdf
+wwwroot\uploads\cin\597007f9-f554-4890-9c96-6530af6bc2d3_Resultat_SPSS.pdf
 wwwroot\uploads\cin\659568d2-bb35-4bac-9a0c-1ef2e710b247_structure_dataset.pdf
 wwwroot\uploads\cin\6e767b62-2f39-4806-ae70-12cb4d679cb7_TestDocument.pdf
 wwwroot\uploads\cin\87d25832-7bcd-4003-a793-0c3efdb4fb17_TestDocument.pdf
 wwwroot\uploads\cin\88242ef2-6c70-4ff5-ba4f-d7498f47ad69_CIN_Internet.pdf
 wwwroot\uploads\cin\886b885e-2eff-405a-b90c-df607c3f5efe_CIN_Internet.pdf
+wwwroot\uploads\cin\8d3f033d-ae27-4dc7-b45a-ce3161c139e8_Resultat_SPSS.pdf
 wwwroot\uploads\cin\8f53dacd-76ca-4caa-90b3-9d7a0f5f3193_Resultat_SPSS.pdf
 wwwroot\uploads\cin\8f769b43-5fb7-46b5-a7b9-83c76f69b2c2_CIN_Internet.pdf
 wwwroot\uploads\cin\a4f012c1-5af2-4356-88b6-6224d66633a9_CIN_Internet.pdf
@@ -3850,9 +3855,14 @@ wwwroot\uploads\diplome\209d34d2-105b-454b-a575-f70a4f7b2a0a_Resultat_SPSS.pdf
 wwwroot\uploads\diplome\5c114934-0c3d-41c3-b9d6-36ac916175ef_Resultat_SPSS.pdf
 wwwroot\uploads\diplome\87473e38-b3c3-4095-a6f3-4a83afa793b5_TestDocument.pdf
 wwwroot\uploads\diplome\8d81da26-5dc1-4743-9e98-dea7d43879b2_Document 18.pdf
+wwwroot\uploads\diplome\a03efca4-0e82-4aa4-b046-328c70961ab9_Resultat_SPSS.pdf
+wwwroot\uploads\diplome\d8441cc8-e6e3-4e9f-9a52-f15fbdb990fd_Resultat_SPSS.pdf
 wwwroot\uploads\dossiers\A1234_fichieretudiant.pdf
+wwwroot\uploads\dossiers\A12345_fichieretudiant.pdf
 wwwroot\uploads\dossiers\K123456_fichieretudiant.pdf
 wwwroot\uploads\dossiers\O1234_fichieretudiant.pdf
+wwwroot\uploads\dossiers\q1234_fichieretudiant.pdf
 wwwroot\uploads\Epreuves\ClassementGIIA.pdf
 wwwroot\uploads\Epreuves\Planning_Annuel_2024_2025.pdf
+wwwroot\uploads\Epreuves\Rapport_DS2_Oracle.pdf
 wwwroot\uploads\Epreuves\TD_Corrige_PLSQL.pdf

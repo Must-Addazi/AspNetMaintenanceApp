@@ -30,68 +30,130 @@
         .Filterable()
         .Sortable()
         .Css("table table-striped table-bordered my-grid") // Ajouter une classe CSS
+        .Id("tbody")
         )
 
   
 </div>
 
 <!-- Bouton pour exporter en Excel -->
-<!--
 <div class="text-center mt-3">
     <button class="btn btn-success" onclick="exportTableToExcel('my-grid')">Exporter en Excel</button>
 </div>
--->
+
 
 <script src="~/js/mvc-grid/mvc-grid.js"></script>
 <script>
-    // Initialiser la grille MVC
-    document.querySelectorAll(".mvc-grid").forEach(element => new MvcGrid(element));
+    document.querySelectorAll(".mvc-grid").forEach(Element => new MvcGrid(Element));
+    //######################## Export to EXCELL #########
+             function getFilteredTableData() {
+        // Get the MVC grid instance
+        const grid = document.querySelector('.mvc-grid');
+        const mvcGrid = new MvcGrid(grid);
 
-    // Fonction pour exporter la grille en Excel
-    function exportTableToExcel(className) {
-        var dataType = 'application/vnd.ms-excel;charset=utf-8'; // Encodage UTF-8 pour les caractères spéciaux
-        var table = document.querySelector(`.${className}`);
+        // Get all rows from the grid body
+        const tbody = grid.querySelector('tbody');
+        const rows = Array.from(tbody.getElementsByTagName('tr'));
 
-        if (!table) {
-            alert("Table non trouvée !");
-            return;
+        // Filter only visible rows (not filtered out)
+        const visibleRows = rows.filter(row => {
+            const style = window.getComputedStyle(row);
+            return style.display !== 'none' && !row.classList.contains('mvc-grid-empty-row');
+        });
+
+        return visibleRows;
+    }
+
+    function exportTableToExcel(tableID) {
+        var downloadLink;
+        var dataType = 'application/vnd.ms-excel';
+
+        // Get the MVC grid
+        var tableSelect = document.querySelector('.mvc-grid');
+
+        // Create a new table for export
+        var exportTable = document.createElement('table');
+
+        // Copy header row but skip action columns
+        var headerRow = document.createElement('tr');
+        var originalHeaders = tableSelect.getElementsByTagName('th');
+
+        // Skip the first column (Convoque button)
+        for(let i = 1; i < originalHeaders.length; i++) {
+            let newHeader = document.createElement('th');
+            // Get the header text without the sort arrows
+            let headerText = originalHeaders[i].querySelector('.mvc-grid-header');
+            newHeader.textContent = headerText ? headerText.textContent.trim() : originalHeaders[i].textContent.trim();
+            headerRow.appendChild(newHeader);
         }
 
-        // Cloner la table pour modification sans affecter l'originale
-        var tableClone = table.cloneNode(true);
+        var thead = document.createElement('thead');
+        thead.appendChild(headerRow);
+        exportTable.appendChild(thead);
 
-        // Supprimer les lignes contenant les filtres
-        tableClone.querySelectorAll('.mvc-grid-row-filter').forEach(row => row.remove());
+        // Create new tbody
+        var tbody = document.createElement('tbody');
 
-        // Convertir la table en une chaîne HTML
-        var tableHTML = tableClone.outerHTML.replace(/ /g, '%20');
+        // Get filtered rows
+        var filteredRows = getFilteredTableData();
 
-        // Nom du fichier Excel
-        var filename = "ListeCandidats_Recherche_3A.xls";
+        // Add filtered rows to new table, excluding action columns
+        filteredRows.forEach(row => {
+            let newRow = document.createElement('tr');
+            let cells = row.getElementsByTagName('td');
 
-        // Création d'un lien de téléchargement
-        var downloadLink = document.createElement("a");
+            // Skip the first column (Convoque button)
+            for(let i = 1; i < cells.length; i++) {
+                let newCell = document.createElement('td');
+                // Handle cells with images
+                if(cells[i].querySelector('img')) {
+                    newCell.textContent = 'Photo';
+                } else {
+                    newCell.textContent = cells[i].textContent.trim();
+                }
+                newRow.appendChild(newCell);
+            }
+            tbody.appendChild(newRow);
+        });
+
+        exportTable.appendChild(tbody);
+
+        // Convert table to Excel format
+        var tableHTML = exportTable.outerHTML.replace(/ /g, '%20');
+
+        // Specify file name
+        filename = "ListePresence3.xls";
+
+        // Create download link element
+        downloadLink = document.createElement("a");
         document.body.appendChild(downloadLink);
 
-        // Blob pour les navigateurs modernes
-        if (window.Blob) {
-            var blob = new Blob(['\ufeff', tableHTML], { type: dataType });
-            var url = URL.createObjectURL(blob);
-            downloadLink.href = url;
-            downloadLink.download = filename;
-            downloadLink.click();
-
-            // Libérer l'URL après téléchargement
-            URL.revokeObjectURL(url);
+        if(navigator.msSaveOrOpenBlob) {
+            var blob = new Blob(['\ufeff', tableHTML], {
+                type: dataType
+            });
+            navigator.msSaveOrOpenBlob(blob, filename);
         } else {
-            // Pour les anciens navigateurs (ex : IE)
+            // Create a link to the file
             downloadLink.href = 'data:' + dataType + ', ' + tableHTML;
+
+            // Setting the file name
             downloadLink.download = filename;
+
+            //triggering the function
             downloadLink.click();
         }
 
-        // Supprimer le lien après utilisation
+        // Clean up
         document.body.removeChild(downloadLink);
     }
+
+    // Initialize MVC Grid and export button
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize all MVC grids on the page
+        document.querySelectorAll(".mvc-grid").forEach(element => new MvcGrid(element));
+    });
+
+    //#########################################################
 </script>
 

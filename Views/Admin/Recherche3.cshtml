@@ -1,8 +1,13 @@
-﻿
+﻿@using NonFactors.Mvc.Grid;
+@model IEnumerable<MantenanceProjetASPNET6.Models.SearchModel3>;
 @{
     ViewData["Title"] = "Recherche3";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
+
+<head>
+    <link href="~/css/mvc-grid/mvc-grid.css" rel="stylesheet" />
+</head>
 
 <div class="container-fluid">
 
@@ -62,94 +67,139 @@
         </div>
 
         <div class="col-md-3 offset-2 mt-5 mb-4 ">
-            <button id="export" onclick="exportTableToExcel('maTable')" class="btn btn-info btn-block py-2">Exporter vers Excel</button>
+            <button id="export" onclick="exportTableToExcel('tbody')" class="btn btn-info btn-block py-2">Exporter vers Excel</button>
         </div>
 
     </div>
-    <table class="table table-bordered table-responsive" id="maTable">
-        <tr>
-            <th class="text-center">See Files</th>
-            <th class="text-center">Delete</th>
-            <th class="text-center">Conforme</th>
-            <th class="text-center">Nom</th>
-            <th class="text-center">Prenom</th>
-               <th class="text-center">Photo</th>
-            <th class="text-center">Sexe</th>
-            <th class="text-center">NoteBac</th>
-            <th class="text-center">TypeDiplôme </th>
-            <th class="text-center">SpecialiteDiplome </th>
-            <th class="text-center">Diplome 1</th>
-            <!--<th class="text-center">Diplome 2</th>
-            <th class="text-center">Diplome 3</th>-->
-            <th class="text-center">Note1</th>
-            <th class="text-center">Note2</th>
-            <th class="text-center">Note3</th>
-            <th class="text-center">Note4</th>
-            <th class="text-center">Dossier</th>
-            <th class="text-center">Convoque</th>
-            <th class="text-center">Math</th>
-            <th class="text-center">Specialite</th>
-            <th class="text-center">Filiere</th>
-            <th class="text-center">Admis</th>
-            <th class="text-center">Non Conforme</th>
-        </tr>
-        <tbody id="tbody">
-            @foreach (var x in Model)
+    
+    <div class="grid-container">
+        @(Html.Grid(Model)
+            .Build(columns =>
             {
-                var u = @x.Cne + ".png";
-                <tr>
-                    <td class="text-center"><button class="btn btn-primary seeFilesBtn" id="@x.Cne">See</button></td>
-                    <td class="text-center"><button class="btn btn-danger deleteBtn" id="@x.Cne">Delete</button></td>
-                    <td class="text-center"><button class="btn btn-info conformBtn" id="@x.Cne">Conforme</button></td>
-                    <td class="text-center">@x.Nom</td>
-                    <td class="text-center">@x.Prenom</td>
-                     <!-- <td class="text-center">
-                          <img src="~/candidatImages/@x.Photo" style="border-radius: 50%; width:150px; height:150px" /></td>-->
-                           <td class="text-center">
-                          <img src="https://localhost:44361/candidatImages/@x.Photo" style="border-radius: 50%; width:50px; height:50px" /></td>
-
-                    <td class="text-center">@x.Sexe</td>
-                    <td class="text-center">@x.NoteBac</td>
-                    <td class="text-center">@x.Type_dip</td>
-                     <td class="text-center">@x.speciali_dip</td>
-                   
-                  <!--  <td class="text-center"><a href="../../DiplomeScanne/@u">mon diplome</a></td>-->
-                     <td class="text-center"><a href="https://localhost:44361/DiplomeScanne/@u">2mon diplome</a></td><!--marche en excel-->
-                    <!--<td class="text-center"><a href="~/DiplomeScanne/@u">3mon diplome</a></td>-->
-                    <td class="text-center">@x.Note1</td>
-                    <td class="text-center">@x.Note2</td>
-                    <td class="text-center">@x.Note3</td>
-                    <td class="text-center">@x.Note4</td>
-                    <td class="text-center">@x.Dossier</td>
-                    <td class="text-center">@x.Convoque</td>
-                    <td class="text-center">@x.Math</td>
-                    <td class="text-center">@x.Specialite</td>
-                    <td class="text-center">@x.Filiere</td>
-                    <td class="text-center">@x.Admis</td>
-                    <td class="text-center">@x.NonConforme</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+                columns.Add().Titled("See").RenderedAs(model =>
+                Html.Raw($@"
+        <button class='btn btn-primary seeFilesBtn' id='{model.Cne}'>See</button>
+        "));
+                columns.Add().Titled("Delete").RenderedAs(model =>
+                Html.Raw($@"
+        <button class='btn btn-danger deleteBtn' id='{model.Cne}'>Delete</button>
+        "));
+                columns.Add().Titled("Conforme").RenderedAs(model =>
+                Html.Raw($@"
+        <button class='btn btn-info conformBtn' id='{model.Cne}'>Conforme</button>
+        "));
+                columns.Add(model => model.Nom).Titled("Nom").Sortable(true);
+                columns.Add(model => model.Prenom).Titled("Prenom").Sortable(true);
+                columns.Add(model => model.Dossier).Titled("Dossier");
+                columns.Add(model => model.Photo).Titled("Photo").RenderedAs(model =>
+                Html.Raw($"<img src='/candidatImages/{model.Photo}' style='width:50px; height:50px; border-radius:50%;' />"));
+                columns.Add(model => model.Sexe).Titled("Sexe").Sortable(true);
+                columns.Add(model => model.NoteBac).Titled("NoteBac").Sortable(true);
+                columns.Add(model => model.Type_dip).Titled("Type de diplome").Sortable(true);
+                columns.Add(model => model.Specialite).Titled("Specialite Diplôme");
+                columns.Add(model => model.Diplome1).Titled("Diplome1");
+                columns.Add(model => model.Note1).Titled("Note1");
+                columns.Add(model => model.Note2).Titled("Note2");
+                columns.Add(model => model.Note3).Titled("Note3");
+                columns.Add(model => model.Note4).Titled("Note4");
+                columns.Add(model => model.Math).Titled("Math").Sortable(true);
+                columns.Add(model => model.Specialite).Titled("Specialite");
+                columns.Add(model => model.Filiere).Titled("Filiere").Sortable(true);
+                columns.Add(model => model.NonConforme).Titled("NonConforme").Sortable(true);
+            })
+            .Pageable(pager =>
+            {
+                pager.RowsPerPage = 10;
+            })
+            .Filterable()
+            .Sortable()
+            .Id("tbody")
+            )
+    </div>
 
 </div>
 <!-- /.container-fluid -->
 
-
+<script src="~/js/mvc-grid/mvc-grid.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 
     //######################## Export to EXCELL #########
+            function getFilteredTableData() {
+        const table = document.getElementById('tbody');
+        const rows = Array.from(table.getElementsByTagName('tr'));
+
+        // Only get visible rows (filtered rows)
+        const visibleRows = rows.filter(row => {
+            const style = window.getComputedStyle(row);
+            return style.display !== 'none';
+        });
+
+        return visibleRows;
+    }
+
     function exportTableToExcel(tableID) {
         var downloadLink;
         var dataType = 'application/vnd.ms-excel';
+
+        // Get the table element
         var tableSelect = document.getElementById(tableID);
-        var tableHTML = tableSelect.outerHTML.replace(/ /g, '%20');
+
+        // Create a new table for export
+        var exportTable = document.createElement('table');
+
+        // Copy header row but skip action columns
+        var headerRow = document.createElement('tr');
+        var originalHeaders = tableSelect.getElementsByTagName('thead')[0].getElementsByTagName('th');
+
+        // Skip the first three columns (See, Delete, Conforme)
+        for(let i = 3; i < originalHeaders.length; i++) {
+            let newHeader = document.createElement('th');
+            newHeader.textContent = originalHeaders[i].textContent;
+            headerRow.appendChild(newHeader);
+        }
+
+        var thead = document.createElement('thead');
+        thead.appendChild(headerRow);
+        exportTable.appendChild(thead);
+
+        // Create new tbody
+        var tbody = document.createElement('tbody');
+
+        // Get filtered rows
+        var filteredRows = getFilteredTableData();
+
+        // Add filtered rows to new table, excluding action columns
+        filteredRows.forEach(row => {
+            let newRow = document.createElement('tr');
+            let cells = row.getElementsByTagName('td');
+
+            // Skip the first three columns (See, Delete, Conforme)
+            for(let i = 3; i < cells.length; i++) {
+                let newCell = document.createElement('td');
+                // Handle cells with images
+                if(cells[i].querySelector('img')) {
+                    newCell.textContent = 'Photo'; // Or you could skip this cell
+                } else {
+                    newCell.textContent = cells[i].textContent;
+                }
+                newRow.appendChild(newCell);
+            }
+            tbody.appendChild(newRow);
+        });
+
+        exportTable.appendChild(tbody);
+
+        // Convert table to Excel format
+        var tableHTML = exportTable.outerHTML.replace(/ /g, '%20');
+
         // Specify file name
         filename = "ListeCandidats_Recherche_3A.xls";
+
         // Create download link element
         downloadLink = document.createElement("a");
         document.body.appendChild(downloadLink);
+
         if (navigator.msSaveOrOpenBlob) {
             var blob = new Blob(['\ufeff', tableHTML], {
                 type: dataType
@@ -158,26 +208,76 @@
         } else {
             // Create a link to the file
             downloadLink.href = 'data:' + dataType + ', ' + tableHTML;
+
             // Setting the file name
             downloadLink.download = filename;
+
             //triggering the function
             downloadLink.click();
         }
+
+        // Clean up
+        document.body.removeChild(downloadLink);
     }
+
     //#########################################################
     $(document).ready(function () {
-        //search button
-        $("#search").click(function () {
-            $.get("/Admin/SearchCriteria", { Criteria: $("#criteria").val(), Key: $("#key").val(), Diplome: $("#diplome").val(), Filiere: $("#filiere").val(), Niveau: 3 }, function (data) {
-                $("#tbody").empty();
-                $.each(data, function (index, row) {
-                    var w=row.cne+".png";var u=row.photo;
-                    var chemin="../../DiplomeScanne/+w";
-                    $("#tbody").append("<tr><td><button class='btn btn-danger deleteBtn' id=" + row.cne + ">Delete</button></td><td><button class='btn btn-info conformBtn' id=" + row.cne + ">Conforme</button></td><td>" + row.nom + "</td><td>" + row.prenom + "</td><td><img  style=\"border-radius: 50%; width:50px; height:50px\"  src=\"/candidatImages/" + row.photo + "\"></img></td><td>" + row.sexe + "</td><td>" + row.noteBac + "</td><td>"  + row.type_dip + "</td><td>"+ row.speciali_dip +"</td><td><a href=\"/DiplomeScanne/" + w + "\">" + row.cne + "</a></td><td>" + row.note1 + "</td><td>" + row.note2 + "</td><td>" + row.note3 + "</td><td>" + row.note4 + "</td><td>" + row.dossier + "</td><td>" + row.convoque + "</td><td>" + row.math + "</td><td>" + row.specialite + "</td><td>" + row.filiere + "</td><td>" + row.admis + "</td><td>" + row.nonConforme  + "</td></tr>");
-                });
 
-            });
-        });
+                   // Initialize MVC Grid
+       [].forEach.call(document.getElementsByClassName('mvc-grid'), function (element) {
+           new MvcGrid(element);
+       });
+
+           // Search button handler
+       $("#search").click(function () {
+           $.get("/Admin/SearchCriteria", {
+               Criteria: $("#criteria").val(),
+               Key: $("#key").val(),
+               Diplome: $("#diplome").val(),
+               Filiere: $("#filiere").val(),
+               Niveau: 3
+           }, function (data) {
+               // Create new tbody content
+               var newContent = data.map(function(row) {
+                   return `
+                       <tr>
+                           <td>
+                               <button class='btn btn-primary seeFilesBtn' id='${row.cne}'>See</button>
+                           </td>
+                           <td>
+                               <button class='btn btn-danger deleteBtn' id='${row.cne}'>Delete</button>
+                           </td>
+                           <td>
+                               <button class='btn btn-info conformBtn' id='${row.cne}'>Conforme</button>
+                           </td>
+                           <td>${row.nom || ''}</td>
+                           <td>${row.prenom || ''}</td>
+                           <td>${row.dossier || ''}</td>
+                           <td><img style="border-radius: 50%; width:50px; height:50px" src="/candidatImages/${row.photo || ''}" /></td>
+                           <td>${row.sexe || ''}</td>
+                           <td>${row.noteBac || ''}</td>
+                           <td>${row.type_dip || ''}</td>
+                           <td>${row.specialite || ''}</td>
+                           <td>${row.diplome1 || ''}</td>
+                           <td>${row.note1 || ''}</td>
+                           <td>${row.note2 || ''}</td>
+                           <td>${row.note3 || ''}</td>
+                           <td>${row.note4 || ''}</td>
+                           <td>${row.math || ''}</td>
+                           <td>${row.specialite || ''}</td>
+                           <td>${row.filiere || ''}</td>
+                           <td>${row.nonConforme || ''}</td>
+                       </tr>
+                   `;
+               }).join('');
+
+               // Update the table body
+               $("#tbody tbody").html(newContent);
+
+               // Reinitialize MVC Grid after updating content
+               new MvcGrid(document.querySelector('.mvc-grid'));
+           });
+       });
                    //see files button
                $(document).on("click", ".seeFilesBtn", function () {
            var cne = $(this).attr("id"); // Récupère l'identifiant (CNE)
@@ -192,32 +292,37 @@
                }
            });
        });
-        //delete button
-        $(document).on("click", ".deleteBtn", function () {
-            var id = $(this).attr("id");
-            $.get("/Admin/deleteStudent", { cne: id, Niveau: 3 }, function (data) {
-                $("#tbody").empty();
-                $.each(data, function (index, row) {
-                    var w=row.cne+".png";var u=row.photo;
-                    var chemin="../../DiplomeScanne/+w";
-                          $("#tbody").append("<tr><td><button class='btn btn-primary seeFilesBtn' id=" + row.cne + ">See</button></td><td><button class='btn btn-danger deleteBtn' id=" + row.cne + ">Delete</button></td><td><button class='btn btn-info conformBtn' id=" + row.cne + ">Conforme</button></td><td>" + row.nom + "</td><td>" + row.prenom + "</td><td><img  style=\"border-radius: 50%; width:50px; height:50px\"  src=\"/candidatImages/" + row.photo + "\"></img></td><td>" + row.sexe + "</td><td>" + row.noteBac + "</td><td>"  + row.type_dip + "</td><td>"+ row.speciali_dip +"</td><td><a href=\"/DiplomeScanne/" + w + "\">" + row.cne + "</a></td><td>" + row.note1 + "</td><td>" + row.note2 + "</td><td>" + row.note3 + "</td><td>" + row.note4 + "</td><td>" + row.dossier + "</td><td>" + row.convoque + "</td><td>" + row.math + "</td><td>" + row.specialite + "</td><td>" + row.filiere + "</td><td>" + row.admis + "</td><td>" + row.nonConforme  + "</td></tr>");
-                });
+          $(document).ready(function () {
+                //delete button
+                       $(document).on("click", ".deleteBtn", function () {
+                     var id = $(this).attr("id");
+                            // Appel AJAX pour mettre à jour les données
+                               $.get("/Admin/deleteStudent", {cne: id,Niveau: 3 })
+                      .done(function (data) {
+                          window.location.reload();
+                      })
+                      .fail(function(xhr, status, error) {
+                          console.error("Erreur lors de la mise à jour:", error);
+                          alert("Une erreur est survenue lors de la mise à jour.");
+                      });
+                 });
+          });
 
-            });
-        });
-        //conform button
-        $(document).on("click", ".conformBtn", function () {
-            var id = $(this).attr("id");
-            $.get("/Admin/conformeStudent", { cne: id, Niveau: 3 }, function (data) {
-                $("#tbody").empty();
-                $.each(data, function (index, row) {
-                    var w=row.cne+".png";var u=row.photo;
-                    var chemin="../../DiplomeScanne/+w";
-                      $("#tbody").append("<tr><td><button class='btn btn-primary seeFilesBtn' id=" + row.cne + ">See</button></td><td><button class='btn btn-danger deleteBtn' id=" + row.cne + ">Delete</button></td><td><button class='btn btn-info conformBtn' id=" + row.cne + ">Conforme</button></td><td>" + row.nom + "</td><td>" + row.prenom + "</td><td><img  style=\"border-radius: 50%; width:50px; height:50px\"  src=\"/candidatImages/" + row.photo + "\"></img></td><td>" + row.sexe + "</td><td>" + row.noteBac + "</td><td>"  + row.type_dip + "</td><td>"+ row.speciali_dip +"</td><td><a href=\"/DiplomeScanne/" + w + "\">" + row.cne + "</a></td><td>" + row.note1 + "</td><td>" + row.note2 + "</td><td>" + row.note3 + "</td><td>" + row.note4 + "</td><td>" + row.dossier + "</td><td>" + row.convoque + "</td><td>" + row.math + "</td><td>" + row.specialite + "</td><td>" + row.filiere + "</td><td>" + row.admis + "</td><td>" + row.nonConforme  + "</td></tr>");
-                });
-
-            });
-        });
+           $(document).ready(function () {
+          //conform button
+                 $(document).on("click", ".conformBtn", function () {
+                  var id = $(this).attr("id");
+                         // Appel AJAX pour mettre à jour les données
+                         $.get("/Admin/conformeStudent", {cne: id,Niveau: 3 })
+                   .done(function (data) {
+                       window.location.reload();
+                   })
+                   .fail(function(xhr, status, error) {
+                       console.error("Erreur lors de la mise à jour:", error);
+                       alert("Une erreur est survenue lors de la mise à jour.");
+                   });
+              });
+       });
  });
 </script>
 

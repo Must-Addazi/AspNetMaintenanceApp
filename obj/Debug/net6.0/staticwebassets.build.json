@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ddnsN2K7IKlHSNtBuJmc4klKNUP4GUMt+hns8HHcp3A=",
+  "Hash": "IfM/wVIFz+hiPuBvoYTT5hvXY+5evnEzUvmlVBLJ6PI=",
   "Source": "MantenanceProjetASPNET6",
   "BasePath": "_content/MantenanceProjetASPNET6",
   "Mode": "Default",
@@ -246,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\candidatImages\\7992.jpg"
+    },
+    {
+      "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\candidatImages\\9765.png",
+      "SourceId": "MantenanceProjetASPNET6",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\",
+      "BasePath": "_content/MantenanceProjetASPNET6",
+      "RelativePath": "candidatImages/9765#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0iycrfic8x",
+      "Integrity": "qPCSZLUbkShgKz6qi4jLzwuVTINahVBZEM7yr8HOD4U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\candidatImages\\9765.png"
     },
     {
       "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\candidatImages\\icon.jpg",
@@ -79985,6 +80006,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\baccalaureats\\0f480f21-8460-4560-ab49-3f82e6e7bcf9_TestDocument.pdf"
     },
     {
+      "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\baccalaureats\\1d52a9c2-581f-421e-9f48-f7f9747a4967_Resultat_SPSS.pdf",
+      "SourceId": "MantenanceProjetASPNET6",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\",
+      "BasePath": "_content/MantenanceProjetASPNET6",
+      "RelativePath": "uploads/baccalaureats/1d52a9c2-581f-421e-9f48-f7f9747a4967_Resultat_SPSS#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7uu5ft2kwe",
+      "Integrity": "X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\baccalaureats\\1d52a9c2-581f-421e-9f48-f7f9747a4967_Resultat_SPSS.pdf"
+    },
+    {
       "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\baccalaureats\\2518630c-29a4-46a5-bdd3-f56f059e2144_etapeProjet.pdf",
       "SourceId": "MantenanceProjetASPNET6",
       "SourceType": "Discovered",
@@ -80447,6 +80489,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\baccalaureats\\da34fb4d-cc7d-444b-a2fb-aa72eefc76e9_TestDocument.pdf"
     },
     {
+      "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\baccalaureats\\e28296bb-1e4a-42be-ba2f-da655916c792_Achraf_Chapitre2.pdf",
+      "SourceId": "MantenanceProjetASPNET6",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\",
+      "BasePath": "_content/MantenanceProjetASPNET6",
+      "RelativePath": "uploads/baccalaureats/e28296bb-1e4a-42be-ba2f-da655916c792_Achraf_Chapitre2#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fpq6oypx59",
+      "Integrity": "s3wtg4uGQvAfToEaYzkmAuse6L8RyNcR8ID4dbP42QY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\baccalaureats\\e28296bb-1e4a-42be-ba2f-da655916c792_Achraf_Chapitre2.pdf"
+    },
+    {
       "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\baccalaureats\\f44020e0-2778-4dbc-a9ef-e8e8d6cd1da1_Diplome.pdf",
       "SourceId": "MantenanceProjetASPNET6",
       "SourceType": "Discovered",
@@ -80636,6 +80699,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\cin\\554f3c8d-7087-49c0-80f8-ae8a5f895d46_Resultat_SPSS.pdf"
     },
     {
+      "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\cin\\597007f9-f554-4890-9c96-6530af6bc2d3_Resultat_SPSS.pdf",
+      "SourceId": "MantenanceProjetASPNET6",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\",
+      "BasePath": "_content/MantenanceProjetASPNET6",
+      "RelativePath": "uploads/cin/597007f9-f554-4890-9c96-6530af6bc2d3_Resultat_SPSS#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7uu5ft2kwe",
+      "Integrity": "X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cin\\597007f9-f554-4890-9c96-6530af6bc2d3_Resultat_SPSS.pdf"
+    },
+    {
       "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\cin\\659568d2-bb35-4bac-9a0c-1ef2e710b247_structure_dataset.pdf",
       "SourceId": "MantenanceProjetASPNET6",
       "SourceType": "Discovered",
@@ -80739,6 +80823,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\cin\\886b885e-2eff-405a-b90c-df607c3f5efe_CIN_Internet.pdf"
+    },
+    {
+      "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\cin\\8d3f033d-ae27-4dc7-b45a-ce3161c139e8_Resultat_SPSS.pdf",
+      "SourceId": "MantenanceProjetASPNET6",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\",
+      "BasePath": "_content/MantenanceProjetASPNET6",
+      "RelativePath": "uploads/cin/8d3f033d-ae27-4dc7-b45a-ce3161c139e8_Resultat_SPSS#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7uu5ft2kwe",
+      "Integrity": "X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cin\\8d3f033d-ae27-4dc7-b45a-ce3161c139e8_Resultat_SPSS.pdf"
     },
     {
       "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\cin\\8f53dacd-76ca-4caa-90b3-9d7a0f5f3193_Resultat_SPSS.pdf",
@@ -80951,6 +81056,48 @@
       "OriginalItemSpec": "wwwroot\\uploads\\diplome\\8d81da26-5dc1-4743-9e98-dea7d43879b2_Document 18.pdf"
     },
     {
+      "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\diplome\\a03efca4-0e82-4aa4-b046-328c70961ab9_Resultat_SPSS.pdf",
+      "SourceId": "MantenanceProjetASPNET6",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\",
+      "BasePath": "_content/MantenanceProjetASPNET6",
+      "RelativePath": "uploads/diplome/a03efca4-0e82-4aa4-b046-328c70961ab9_Resultat_SPSS#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7uu5ft2kwe",
+      "Integrity": "X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\diplome\\a03efca4-0e82-4aa4-b046-328c70961ab9_Resultat_SPSS.pdf"
+    },
+    {
+      "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\diplome\\d8441cc8-e6e3-4e9f-9a52-f15fbdb990fd_Resultat_SPSS.pdf",
+      "SourceId": "MantenanceProjetASPNET6",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\",
+      "BasePath": "_content/MantenanceProjetASPNET6",
+      "RelativePath": "uploads/diplome/d8441cc8-e6e3-4e9f-9a52-f15fbdb990fd_Resultat_SPSS#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7uu5ft2kwe",
+      "Integrity": "X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\diplome\\d8441cc8-e6e3-4e9f-9a52-f15fbdb990fd_Resultat_SPSS.pdf"
+    },
+    {
       "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\dossiers\\A1234_fichieretudiant.pdf",
       "SourceId": "MantenanceProjetASPNET6",
       "SourceType": "Discovered",
@@ -80970,6 +81117,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\dossiers\\A1234_fichieretudiant.pdf"
+    },
+    {
+      "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\dossiers\\A12345_fichieretudiant.pdf",
+      "SourceId": "MantenanceProjetASPNET6",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\",
+      "BasePath": "_content/MantenanceProjetASPNET6",
+      "RelativePath": "uploads/dossiers/A12345_fichieretudiant#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gfoa2c2wo4",
+      "Integrity": "1FMXmKjbKgf/GnMPOqyxxcUWvP0CAgP8WvflX1G2tbo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\dossiers\\A12345_fichieretudiant.pdf"
     },
     {
       "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\dossiers\\K123456_fichieretudiant.pdf",
@@ -81014,6 +81182,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\dossiers\\O1234_fichieretudiant.pdf"
     },
     {
+      "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\dossiers\\q1234_fichieretudiant.pdf",
+      "SourceId": "MantenanceProjetASPNET6",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\",
+      "BasePath": "_content/MantenanceProjetASPNET6",
+      "RelativePath": "uploads/dossiers/q1234_fichieretudiant#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wo5i5zf0lp",
+      "Integrity": "sJHT9Pk468SVBeJoW8nVNoAPMHNQHH6dtD7nJ/eDPVU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\dossiers\\q1234_fichieretudiant.pdf"
+    },
+    {
       "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\Epreuves\\ClassementGIIA.pdf",
       "SourceId": "MantenanceProjetASPNET6",
       "SourceType": "Discovered",
@@ -81054,6 +81243,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\Epreuves\\Planning_Annuel_2024_2025.pdf"
+    },
+    {
+      "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\Epreuves\\Rapport_DS2_Oracle.pdf",
+      "SourceId": "MantenanceProjetASPNET6",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\",
+      "BasePath": "_content/MantenanceProjetASPNET6",
+      "RelativePath": "uploads/Epreuves/Rapport_DS2_Oracle#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b6ugchsyg9",
+      "Integrity": "PVOtLI+Xzm69ZNor+2fqgohVtaYU7RbO0xff9kLP7SA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Epreuves\\Rapport_DS2_Oracle.pdf"
     },
     {
       "Identity": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\Epreuves\\TD_Corrige_PLSQL.pdf",
@@ -81813,6 +82023,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-cnEuBDM5zMCJdwi5we7MFP0gUlFqGDo7aTjEBn1ubPE="
+        }
+      ]
+    },
+    {
+      "Route": "candidatImages/9765.0iycrfic8x.png",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\candidatImages\\9765.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qPCSZLUbkShgKz6qi4jLzwuVTINahVBZEM7yr8HOD4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 08:55:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0iycrfic8x"
+        },
+        {
+          "Name": "label",
+          "Value": "candidatImages/9765.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qPCSZLUbkShgKz6qi4jLzwuVTINahVBZEM7yr8HOD4U="
+        }
+      ]
+    },
+    {
+      "Route": "candidatImages/9765.png",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\candidatImages\\9765.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qPCSZLUbkShgKz6qi4jLzwuVTINahVBZEM7yr8HOD4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 08:55:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qPCSZLUbkShgKz6qi4jLzwuVTINahVBZEM7yr8HOD4U="
         }
       ]
     },
@@ -393335,6 +393627,88 @@
       ]
     },
     {
+      "Route": "uploads/baccalaureats/1d52a9c2-581f-421e-9f48-f7f9747a4967_Resultat_SPSS.7uu5ft2kwe.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\baccalaureats\\1d52a9c2-581f-421e-9f48-f7f9747a4967_Resultat_SPSS.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 09:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7uu5ft2kwe"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/baccalaureats/1d52a9c2-581f-421e-9f48-f7f9747a4967_Resultat_SPSS.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/baccalaureats/1d52a9c2-581f-421e-9f48-f7f9747a4967_Resultat_SPSS.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\baccalaureats\\1d52a9c2-581f-421e-9f48-f7f9747a4967_Resultat_SPSS.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 09:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY="
+        }
+      ]
+    },
+    {
       "Route": "uploads/baccalaureats/2518630c-29a4-46a5-bdd3-f56f059e2144_etapeProjet.pdf",
       "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\baccalaureats\\2518630c-29a4-46a5-bdd3-f56f059e2144_etapeProjet.pdf",
       "Selectors": [],
@@ -395139,6 +395513,88 @@
       ]
     },
     {
+      "Route": "uploads/baccalaureats/e28296bb-1e4a-42be-ba2f-da655916c792_Achraf_Chapitre2.fpq6oypx59.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\baccalaureats\\e28296bb-1e4a-42be-ba2f-da655916c792_Achraf_Chapitre2.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4513725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s3wtg4uGQvAfToEaYzkmAuse6L8RyNcR8ID4dbP42QY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 08:53:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fpq6oypx59"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/baccalaureats/e28296bb-1e4a-42be-ba2f-da655916c792_Achraf_Chapitre2.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s3wtg4uGQvAfToEaYzkmAuse6L8RyNcR8ID4dbP42QY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/baccalaureats/e28296bb-1e4a-42be-ba2f-da655916c792_Achraf_Chapitre2.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\baccalaureats\\e28296bb-1e4a-42be-ba2f-da655916c792_Achraf_Chapitre2.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4513725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s3wtg4uGQvAfToEaYzkmAuse6L8RyNcR8ID4dbP42QY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 08:53:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s3wtg4uGQvAfToEaYzkmAuse6L8RyNcR8ID4dbP42QY="
+        }
+      ]
+    },
+    {
       "Route": "uploads/baccalaureats/f44020e0-2778-4dbc-a9ef-e8e8d6cd1da1_Diplome.pdf",
       "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\baccalaureats\\f44020e0-2778-4dbc-a9ef-e8e8d6cd1da1_Diplome.pdf",
       "Selectors": [],
@@ -395877,6 +396333,88 @@
       ]
     },
     {
+      "Route": "uploads/cin/597007f9-f554-4890-9c96-6530af6bc2d3_Resultat_SPSS.7uu5ft2kwe.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\cin\\597007f9-f554-4890-9c96-6530af6bc2d3_Resultat_SPSS.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 08:52:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7uu5ft2kwe"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/cin/597007f9-f554-4890-9c96-6530af6bc2d3_Resultat_SPSS.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cin/597007f9-f554-4890-9c96-6530af6bc2d3_Resultat_SPSS.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\cin\\597007f9-f554-4890-9c96-6530af6bc2d3_Resultat_SPSS.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 08:52:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY="
+        }
+      ]
+    },
+    {
       "Route": "uploads/cin/659568d2-bb35-4bac-9a0c-1ef2e710b247_structure_dataset.7n0qonlpm3.pdf",
       "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\cin\\659568d2-bb35-4bac-9a0c-1ef2e710b247_structure_dataset.pdf",
       "Selectors": [],
@@ -396283,6 +396821,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-BYVv201LftKGx0RmHIGuBKDqyHb9i+d2mBFeeyAwt4A="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cin/8d3f033d-ae27-4dc7-b45a-ce3161c139e8_Resultat_SPSS.7uu5ft2kwe.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\cin\\8d3f033d-ae27-4dc7-b45a-ce3161c139e8_Resultat_SPSS.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 09:30:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7uu5ft2kwe"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/cin/8d3f033d-ae27-4dc7-b45a-ce3161c139e8_Resultat_SPSS.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/cin/8d3f033d-ae27-4dc7-b45a-ce3161c139e8_Resultat_SPSS.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\cin\\8d3f033d-ae27-4dc7-b45a-ce3161c139e8_Resultat_SPSS.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 09:30:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY="
         }
       ]
     },
@@ -397107,6 +397727,170 @@
       ]
     },
     {
+      "Route": "uploads/diplome/a03efca4-0e82-4aa4-b046-328c70961ab9_Resultat_SPSS.7uu5ft2kwe.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\diplome\\a03efca4-0e82-4aa4-b046-328c70961ab9_Resultat_SPSS.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 09:32:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7uu5ft2kwe"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/diplome/a03efca4-0e82-4aa4-b046-328c70961ab9_Resultat_SPSS.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/diplome/a03efca4-0e82-4aa4-b046-328c70961ab9_Resultat_SPSS.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\diplome\\a03efca4-0e82-4aa4-b046-328c70961ab9_Resultat_SPSS.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 09:32:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/diplome/d8441cc8-e6e3-4e9f-9a52-f15fbdb990fd_Resultat_SPSS.7uu5ft2kwe.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\diplome\\d8441cc8-e6e3-4e9f-9a52-f15fbdb990fd_Resultat_SPSS.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 08:54:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7uu5ft2kwe"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/diplome/d8441cc8-e6e3-4e9f-9a52-f15fbdb990fd_Resultat_SPSS.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/diplome/d8441cc8-e6e3-4e9f-9a52-f15fbdb990fd_Resultat_SPSS.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\diplome\\d8441cc8-e6e3-4e9f-9a52-f15fbdb990fd_Resultat_SPSS.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 08:54:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X068xYVPb48bTGziBeblPf9uUnqyh5MKNu7ZSdjzPiY="
+        }
+      ]
+    },
+    {
       "Route": "uploads/dossiers/A1234_fichieretudiant.8h669r7ox3.pdf",
       "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\dossiers\\A1234_fichieretudiant.pdf",
       "Selectors": [],
@@ -397185,6 +397969,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-tDRp2oSU56CW9v2NKb1ITnNBTDv37KrK7t3aJFKsNRM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dossiers/A12345_fichieretudiant.gfoa2c2wo4.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\dossiers\\A12345_fichieretudiant.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2406017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1FMXmKjbKgf/GnMPOqyxxcUWvP0CAgP8WvflX1G2tbo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 10:19:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gfoa2c2wo4"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/dossiers/A12345_fichieretudiant.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1FMXmKjbKgf/GnMPOqyxxcUWvP0CAgP8WvflX1G2tbo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dossiers/A12345_fichieretudiant.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\dossiers\\A12345_fichieretudiant.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2406017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1FMXmKjbKgf/GnMPOqyxxcUWvP0CAgP8WvflX1G2tbo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 10:19:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1FMXmKjbKgf/GnMPOqyxxcUWvP0CAgP8WvflX1G2tbo="
         }
       ]
     },
@@ -397353,6 +398219,88 @@
       ]
     },
     {
+      "Route": "uploads/dossiers/q1234_fichieretudiant.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\dossiers\\q1234_fichieretudiant.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6100637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sJHT9Pk468SVBeJoW8nVNoAPMHNQHH6dtD7nJ/eDPVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 10:14:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sJHT9Pk468SVBeJoW8nVNoAPMHNQHH6dtD7nJ/eDPVU="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dossiers/q1234_fichieretudiant.wo5i5zf0lp.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\dossiers\\q1234_fichieretudiant.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6100637"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sJHT9Pk468SVBeJoW8nVNoAPMHNQHH6dtD7nJ/eDPVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 10:14:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wo5i5zf0lp"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/dossiers/q1234_fichieretudiant.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sJHT9Pk468SVBeJoW8nVNoAPMHNQHH6dtD7nJ/eDPVU="
+        }
+      ]
+    },
+    {
       "Route": "uploads/Epreuves/ClassementGIIA.9m5jgysj2d.pdf",
       "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\Epreuves\\ClassementGIIA.pdf",
       "Selectors": [],
@@ -397513,6 +398461,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-OV60qxkbzUDN2Gcxqgj7bYIyHNOzbjm/SL7aJ1Ebef0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Epreuves/Rapport_DS2_Oracle.b6ugchsyg9.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\Epreuves\\Rapport_DS2_Oracle.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4511276"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PVOtLI+Xzm69ZNor+2fqgohVtaYU7RbO0xff9kLP7SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 00:44:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b6ugchsyg9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/Epreuves/Rapport_DS2_Oracle.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PVOtLI+Xzm69ZNor+2fqgohVtaYU7RbO0xff9kLP7SA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/Epreuves/Rapport_DS2_Oracle.pdf",
+      "AssetFile": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\wwwroot\\uploads\\Epreuves\\Rapport_DS2_Oracle.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4511276"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PVOtLI+Xzm69ZNor+2fqgohVtaYU7RbO0xff9kLP7SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 00:44:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PVOtLI+Xzm69ZNor+2fqgohVtaYU7RbO0xff9kLP7SA="
         }
       ]
     },

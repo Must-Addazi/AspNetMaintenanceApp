@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|d:\\4-ginfo\\.net\\ds_3project\\testasp\\aspnetmaintenanceapp\\views\\admin\\listfinale4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|solutionrelative:views\\admin\\listfinale4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|d:\\4-ginfo\\.net\\ds_3project\\testasp\\aspnetmaintenanceapp\\views\\admin\\presence3list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|solutionrelative:views\\admin\\presence3list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|d:\\4-ginfo\\.net\\ds_3project\\testasp\\aspnetmaintenanceapp\\views\\admin\\listefinale3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|solutionrelative:views\\admin\\listefinale3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|d:\\4-ginfo\\.net\\ds_3project\\testasp\\aspnetmaintenanceapp\\views\\admin\\listabsence4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|solutionrelative:views\\admin\\listabsence4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|d:\\4-ginfo\\.net\\ds_3project\\testasp\\aspnetmaintenanceapp\\views\\admin\\selectionfinale3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|solutionrelative:views\\admin\\selectionfinale3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|d:\\4-ginfo\\.net\\ds_3project\\testasp\\aspnetmaintenanceapp\\views\\admin\\listabsence3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|solutionrelative:views\\admin\\listabsence3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|d:\\4-ginfo\\.net\\ds_3project\\testasp\\aspnetmaintenanceapp\\views\\admin\\convoque4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|solutionrelative:views\\admin\\convoque4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|d:\\4-ginfo\\.net\\ds_3project\\testasp\\aspnetmaintenanceapp\\views\\admin\\convoque3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|solutionrelative:views\\admin\\convoque3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|d:\\4-ginfo\\.net\\ds_3project\\testasp\\aspnetmaintenanceapp\\views\\admin\\selectionfinale4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{162FBB9D-470A-4E2D-9587-954C937B07A0}|MantenanceProjetASPNET6.csproj|solutionrelative:views\\admin\\selectionfinale4.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListeFinale3.cshtml",
-              "DocumentMoniker": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\ListeFinale3.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\ListeFinale3.cshtml",
-              "ToolTip": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\ListeFinale3.cshtml*",
-              "RelativeToolTip": "Views\\Admin\\ListeFinale3.cshtml*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAABCAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Presence3List.cshtml",
+              "DocumentMoniker": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\Presence3List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Presence3List.cshtml",
+              "ToolTip": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\Presence3List.cshtml*",
+              "RelativeToolTip": "Views\\Admin\\Presence3List.cshtml*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwB4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-09T00:37:27.709Z",
+              "WhenOpened": "2025-01-09T11:18:59.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ListFinale4.cshtml",
-              "DocumentMoniker": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\ListFinale4.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\ListFinale4.cshtml",
-              "ToolTip": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\ListFinale4.cshtml*",
-              "RelativeToolTip": "Views\\Admin\\ListFinale4.cshtml*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAABUAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "SelectionFinale4.cshtml",
+              "DocumentMoniker": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\SelectionFinale4.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\SelectionFinale4.cshtml",
+              "ToolTip": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\SelectionFinale4.cshtml",
+              "RelativeToolTip": "Views\\Admin\\SelectionFinale4.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-09T00:27:41.579Z",
+              "WhenOpened": "2025-01-09T11:00:18.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SelectionFinale3.cshtml",
+              "DocumentMoniker": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\SelectionFinale3.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\SelectionFinale3.cshtml",
+              "ToolTip": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\SelectionFinale3.cshtml",
+              "RelativeToolTip": "Views\\Admin\\SelectionFinale3.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T10:59:58.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListAbsence4.cshtml",
+              "DocumentMoniker": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\ListAbsence4.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ListAbsence4.cshtml",
+              "ToolTip": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\ListAbsence4.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ListAbsence4.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwC4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T10:59:14.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListAbsence3.cshtml",
+              "DocumentMoniker": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\ListAbsence3.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ListAbsence3.cshtml",
+              "ToolTip": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\ListAbsence3.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ListAbsence3.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAgwKkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T10:59:01.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Convoque4.cshtml",
+              "DocumentMoniker": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\Convoque4.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Convoque4.cshtml",
+              "ToolTip": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\Convoque4.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Convoque4.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAgwKkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T10:58:29.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Convoque3.cshtml",
+              "DocumentMoniker": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\Convoque3.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Convoque3.cshtml",
+              "ToolTip": "D:\\4-GINFO\\.NET\\DS_3Project\\testAsp\\AspNetMaintenanceApp\\Views\\Admin\\Convoque3.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Convoque3.cshtml",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAgwKkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-09T09:40:21.093Z",
               "EditorCaption": ""
             }
           ]

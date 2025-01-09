@@ -31,8 +31,13 @@
             .Pageable(pager => { pager.RowsPerPage = 6; })
             .Sortable()
             .Filterable()
+            .Id("tbody")
             )
     </div>
+</div>
+
+<div class="col-md-3 offset-2 mt-5 mb-4 ">
+    <button id="export" onclick="exportTableToExcel('tbody')" class="btn btn-info btn-block py-2">Exporter vers Excel</button>
 </div>
 
 <!-- popup pour choisir le statut -->
@@ -67,6 +72,104 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="~/js/mvc-grid/mvc-grid.js"></script>
 <script>
+    //######################## Export to EXCELL #########
+            function getFilteredTableData() {
+        const table = document.getElementById('tbody');
+        const rows = Array.from(table.getElementsByTagName('tr'));
+
+        // Only get visible rows (filtered rows)
+        const visibleRows = rows.filter(row => {
+            const style = window.getComputedStyle(row);
+            return style.display !== 'none';
+        });
+
+        return visibleRows;
+    }
+
+    function exportTableToExcel(tableID) {
+        var downloadLink;
+        var dataType = 'application/vnd.ms-excel';
+
+        // Get the table element
+        var tableSelect = document.getElementById(tableID);
+
+        // Create a new table for export
+        var exportTable = document.createElement('table');
+
+        // Copy header row but skip action columns
+        var headerRow = document.createElement('tr');
+        var originalHeaders = tableSelect.getElementsByTagName('thead')[0].getElementsByTagName('th');
+
+        // Skip the first three columns (See, Delete, Conforme)
+        for(let i = 3; i < originalHeaders.length; i++) {
+            let newHeader = document.createElement('th');
+            newHeader.textContent = originalHeaders[i].textContent;
+            headerRow.appendChild(newHeader);
+        }
+
+        var thead = document.createElement('thead');
+        thead.appendChild(headerRow);
+        exportTable.appendChild(thead);
+
+        // Create new tbody
+        var tbody = document.createElement('tbody');
+
+        // Get filtered rows
+        var filteredRows = getFilteredTableData();
+
+        // Add filtered rows to new table, excluding action columns
+        filteredRows.forEach(row => {
+            let newRow = document.createElement('tr');
+            let cells = row.getElementsByTagName('td');
+
+            // Skip the first three columns (See, Delete, Conforme)
+            for(let i = 3; i < cells.length; i++) {
+                let newCell = document.createElement('td');
+                // Handle cells with images
+                if(cells[i].querySelector('img')) {
+                    newCell.textContent = 'Photo'; // Or you could skip this cell
+                } else {
+                    newCell.textContent = cells[i].textContent;
+                }
+                newRow.appendChild(newCell);
+            }
+            tbody.appendChild(newRow);
+        });
+
+        exportTable.appendChild(tbody);
+
+        // Convert table to Excel format
+        var tableHTML = exportTable.outerHTML.replace(/ /g, '%20');
+
+        // Specify file name
+        filename = "SelectionFinal3.xls";
+
+        // Create download link element
+        downloadLink = document.createElement("a");
+        document.body.appendChild(downloadLink);
+
+        if (navigator.msSaveOrOpenBlob) {
+            var blob = new Blob(['\ufeff', tableHTML], {
+                type: dataType
+            });
+            navigator.msSaveOrOpenBlob(blob, filename);
+        } else {
+            // Create a link to the file
+            downloadLink.href = 'data:' + dataType + ', ' + tableHTML;
+
+            // Setting the file name
+            downloadLink.download = filename;
+
+            //triggering the function
+            downloadLink.click();
+        }
+
+        // Clean up
+        document.body.removeChild(downloadLink);
+    }
+
+    //#########################################################
+
     $(document).ready(function () {
         // Gestion du clic sur le bouton "Sélectionner"
         $(document).on("click", ".select-btn", function () {
